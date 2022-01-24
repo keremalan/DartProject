@@ -17,6 +17,7 @@ class Iskele extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: false, // AppBar üzerindeki Text widget'ının ortalamasını engeller.
         title: Text("Alışveriş Listesi Uygulaması"),
       ),
       body: AnaEkran(),
